@@ -1,0 +1,14 @@
+{
+  "data": [
+    { 
+        "id": 1, 
+        "language": "en", 
+        "content": "China Vision is a non-profit organization that was founded in 1997, under the auspices of the Australian Chinese Charity Foundation Inc. Although China has made great advances in the field of medicine in recent years, many still suffer from partial or complete blindness. In certain parts of China, ocular conditions such as cataracts, glaucoma and eye infection are prevalent in its poor regions. As loss of sight threatens livelihood, independence and self-respect of the sufferer, it has major social and economic consequences. A specialised medical mission, later becoming known as “China Vision Inc” was established to provide continuity and constancy to the project. It has grown from once a year mission to at least 5 times per year missions in China especially in Guangdong Province, with the mobile surgical unit, converted from a coach. We now received wide recognition not only in Australia, but also in China, for its medical works in various parts in China. In the past 20 years, China Vision has visited different provinces in China, Sichuan, Guangdong, Shanxi, Hainan, Yunnan,Guangxi,Heilongjiang….places that are less developed. China Vision has given rosy prospects and hope to thousands of people in needs." 
+    },
+    { 
+        "id": 2, 
+        "language": "cn",
+        "content": "光明之行是澳大利亞一個非牟利組織，在澳洲華人公益金支持下創建于1997年。光明之行其中一項持續穩定推展的計劃，主要是針對中國邊遠地區以及東南亞國家落後地區一些特定的醫療需要，派遣志願醫療隊前往介紹示範澳洲先進的眼科手術，協助培訓當地醫院眼科手術人才，並為當地一批貧困白内障病人贈醫施葯。迄今光明之行已經組織多次學有專長的澳洲醫學界翹楚和志願者組成志願醫療隊，前往中國邊遠地區義診。雖然今年中國在國民醫療保健方面有了長足進步，但在邊遠地區特別是在一些貧窮落後地區醫療服務仍然不足。例如白内障，青光眼等眼疾發病率高，但患者往往得不到及時和適當的治療。光明之行正是因應這些需要而組織澳洲富于愛心的眼科專家和志願工作者，前往中國不發達地區義診，組織學朮講座，介紹世界先進的眼科醫療技術。在过去的20年里，澳大利亚“光明之行”深入中国四川、广东、陕西、海南、云南、广西﹐黑龍江,等省区﹐以及越南﹐柬埔寨等欠发达地区进行义诊，为数千名貧困白内障患者和青光眼患者送去了光明和希望。"
+    }
+  ]
+}
