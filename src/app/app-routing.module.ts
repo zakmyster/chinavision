@@ -5,7 +5,17 @@ import { AboutComponent } from 'app/about/components/about.component';
 
 const routes: Routes = [
   {
-    path: 'about', component: AboutComponent
+    path: 'about',
+    children: [
+      {
+        path: '',
+        component: AboutComponent
+      },
+      {
+        path: ':lng',
+        component: AboutComponent
+      }
+    ]
   }
 ];
 

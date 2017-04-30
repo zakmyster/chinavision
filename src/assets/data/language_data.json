@@ -1,0 +1,41 @@
+{
+    "language_data": {
+        "nav_bar": [
+            {
+                "en": "Home",
+                "cn": "家",
+                "route":""
+            },
+            {
+                "en": "About Us",
+                "cn": "關於我們",
+                "route":"about"
+            },
+            {
+                "en": "Cause",
+                "cn": "原因",
+                "route":"cause"
+            },
+            {
+                "en": "Team",
+                "cn": "球隊",
+                "route":"team"
+            },
+            {
+                "en": "Sponsorship",
+                "cn": "贊助",
+                "route":"sponsorship"
+            },
+            {
+                "en": "Donate",
+                "cn": "捐",
+                "route":"donate"
+            },
+            {
+                "en": "Contact",
+                "cn": "聯繫",
+                "route":"contact"
+            }
+        ]
+    }
+}
