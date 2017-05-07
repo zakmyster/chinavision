@@ -8,9 +8,21 @@ import { WorkspaceComponent } from './workspace/components/workspace/workspace.c
 import { WorkspaceModule } from 'app/workspace/workspace.module';
 import { AboutComponent } from './about/components/about.component';
 import { SharedModule } from 'app/shared/shared.module';
+import { CauseComponent } from './cause/cause.component';
+import { TeamComponent } from './team/team.component';
+import { SponsorshipComponent } from './sponsorship/sponsorship.component';
+import { DonateComponent } from './donate/donate.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
-  declarations: [AboutComponent],
+  declarations: [
+    AboutComponent,
+    CauseComponent,
+    TeamComponent,
+    SponsorshipComponent,
+    DonateComponent,
+    HomeComponent
+  ],
   imports: [
     BrowserModule,
     FormsModule,

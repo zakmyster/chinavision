@@ -1,0 +1,141 @@
+{
+    "about_data": {
+        "en": "China Vision is a non-profit organization that was founded in 1997, under the auspices of the Australian Chinese Charity Foundation Inc. Although China has made great advances in the field of medicine in recent years, many still suffer from partial or complete blindness. In certain parts of China, ocular conditions such as cataracts, glaucoma and eye infection are prevalent in its poor regions. As loss of sight threatens livelihood, independence and self-respect of the sufferer, it has major social and economic consequences. A specialised medical mission, later becoming known as “China Vision Inc” was established to provide continuity and constancy to the project. It has grown from once a year mission to at least 5 times per year missions in China especially in Guangdong Province, with the mobile surgical unit, converted from a coach. We now received wide recognition not only in Australia, but also in China, for its medical works in various parts in China. In the past 20 years, China Vision has visited different provinces in China, Sichuan, Guangdong, Shanxi, Hainan, Yunnan,Guangxi,Heilongjiang….places that are less developed. China Vision has given rosy prospects and hope to thousands of people in needs.",
+        "cn": "光明之行是澳大利亞一個非牟利組織，在澳洲華人公益金支持下創建于1997年。光明之行其中一項持續穩定推展的計劃，主要是針對中國邊遠地區以及東南亞國家落後地區一些特定的醫療需要，派遣志願醫療隊前往介紹示範澳洲先進的眼科手術，協助培訓當地醫院眼科手術人才，並為當地一批貧困白内障病人贈醫施葯。迄今光明之行已經組織多次學有專長的澳洲醫學界翹楚和志願者組成志願醫療隊，前往中國邊遠地區義診。雖然今年中國在國民醫療保健方面有了長足進步，但在邊遠地區特別是在一些貧窮落後地區醫療服務仍然不足。例如白内障，青光眼等眼疾發病率高，但患者往往得不到及時和適當的治療。光明之行正是因應這些需要而組織澳洲富于愛心的眼科專家和志願工作者，前往中國不發達地區義診，組織學朮講座，介紹世界先進的眼科醫療技術。在过去的20年里，澳大利亚“光明之行”深入中国四川、广东、陕西、海南、云南、广西﹐黑龍江,等省区﹐以及越南﹐柬埔寨等欠发达地区进行义诊，为数千名貧困白内障患者和青光眼患者送去了光明和希望。"
+    },
+    "mission_data": {
+        "en": [
+            "To foster the development of medical exchange and further education in the filed of ophthalmology",
+            "To provide opportunities for local eye specialists and medical practitioners in the filed of ophthalmology to participate in overseas exchange programme",
+            "To promote and train overseas medical practitioners to utilise Australian medicine, technologies and advanced medical techniques",
+            "To work closely with medical practitioners locally and overseas to remedy the vision of many who otherwise cannot see."
+        ],
+        "cn": [
+            "宣傳推動澳中之間的醫療技術交流，尤其是在眼科手術和眼疾防治方面的交流",
+            "為邊遠地區醫院提供青光眼和白内障等眼疾的手術治療示範",
+            "為貧困地區醫務人員提供眼科疾病治療診斷，麻醉和護理技術培訓",
+            "免費為一批貧困患者施治，以幫助這些生活困難人士重見光明。"
+        ]
+    },
+    "cataract_data": {
+        "what_is_cataract": {
+            "en": "Cataract is the leading cause of blindness worldwide. When someone suffers from cataract, a clouding in the normally clear lens, it causes vision to become proportionately reduced. Cataract can affect either or both eyes. Most people with severe vision loss due to cataract live in developing countries. This is particularly devastating because work, education and family ife are affected, making it hard to escape the cycle of poverty. In some cases, people die prematurely. The impact of cataract is an inexcusable injustice because it is a disease for which a safe, effective and relatively inexpensive treatment is available in more developed parts of the world. ",
+            "cn": "白内障是全球第一位的致盲性眼病，是指眼球前端的晶状体发生混浊、由透明变成不透明，阻碍光线进入眼内，从而影响视力。早期混浊轻微或范围较小时不影响视力，而后逐渐加重至明显影响视力甚至失明。 随着年岁的增长，人眼球的晶状体会不可避免地因老化而发生硬化和混浊，逐渐造成视力障碍，称为老年性白内障。这种白内障多发生在50岁以上，80岁以上老年人白内障的患病率几乎为100%。因此，我们熟知的白内障，一般都是说的老年白内障。此外，还有外伤性白内障和代谢性白内障等其它原因造成的白内障，因此任何年龄段、任何人类个体都可能患上白内障。白内障盲是可避免盲，最有效的方法通过是安全、高效的手术置换人工晶体，使患者重见光明。"
+        },
+        "cataract_in_china": {
+            "en": "Cataract is the leading cause of blindness worldwide. When someone suffers from cataract, a clouding in the normally clear lens, it causes vision to become proportionately reduced. Cataract can affect either or both eyes. Most people with severe vision loss due to cataract live in developing countries. This is particularly devastating because work, education and family ife are affected, making it hard to escape the cycle of poverty. In some cases, people die prematurely. The impact of cataract is an inexcusable injustice because it is a disease for which a safe, effective and relatively inexpensive treatment is available in more developed parts of the world.",
+            "cn": "当前，中国白内障发病呈现上升态势，一是国内许多地区正快速进入老龄化社会，老年人口比例增加，势必增加白内障的发病率；二则中国部分地区如西藏等地，紫外线照射较强，40岁以上的人口就出现较高的白内障发病率；与此同时，新生儿由于感染等因素，也发现不少白内障病人。当务之急，是加强眼科医师的培训，并积极引进国际先进技术。据2014年的统计，中国每百万名白内障患者中，接受复明手术的近1400人。这个数据与发达国家相比，差距巨大。美国、日本每百万白内障患者接受复明手术人数均超过10000人，即使是印度，这个数字也达到5000至6000人。白内障一直以来就是导致失明的最主要原因，主要发病群体是老年人。目前，中国拥有世界上最大的白内障患者群，约有600万人，占全球总数的1/3。与此相对应的是，中国仅有26000名眼科医师，而其中只有约10-15%即3000余人可以做白内障手术。"
+        }
+    },
+    "chinavision_goal": {
+        "en": "China Vision aims to work with small provincial towns in China, focusing on blindness prevention and basic medical healthcare. We aim to give the gift of sight to the poor in rural Cambodia who suffer from debilitating eye disease. Without our help, they would have no means to pay for their eye tests or vision corrected. Our dedicated China Vision medical team (comprising of surgeons, nurses, General Practitioners, Pharmacists, Optometrists and volunteers) from Australia carry out cataract procedures and medical care completely free of charge to the locals. Cambodia Vision survives solely through sponsorship and community’s support to accomplish its mission. The funding collected leads to the purchasing of medications patients, medical equipments, and supplies for cataract surgeries.",
+        "cn": "中國當地合作醫療單位派出眼科專家和經驗豐富的醫護志願人員參與項目活動，不收取報酬 “光明之行”每年組織澳洲眼科專家和醫護志願者利用專家假期，義務來參與項目活動，進行學術交流。當地醫院負責組織患者，接送手術病人等 當地醫院負責手術病人的入院，朮前檢查，提供手術場所 當地華僑華人投訴咨詢服務中心負責整個活動的組織協調工作 當地人民政府僑務辦公室負責整個項目的監管 另外光明之行團隊﹐每次行動除了為貧困白內障患者義診之外﹐隨隊同行的善長會攜帶許多生活用品﹐奶粉﹐孩子們的學習用具﹐衣物﹐食物﹐紅包等﹐以實際行動支持幫助當地有需要協助的貧困群眾。為他們送上關愛和溫暖。"
+    },
+    "founder_message": {
+        "en": "For the past two decades the China Vision team has travelled to different parts of China, partnering with our Chinese doctors and nurses in China in our desire to offer our service, in a small way, for the underprivileged elderly in the poorer areas in China. In our travels we have met many dedicated government officials, medical personnel and those provide disability services. They have offered us tremendous encouragement and support. Their friendship has re-affirmed the purpose of our project. China Vision depends on the donations and fundraising of many community organisations and gifts from individuals. I like to express our appreciation for the support in the past and look forward to work with you in many more years to come. ",
+        "cn": "光明之行在過往近20年來和中國醫生，護士一起去了很多地方，為貧困地區的老年白内障患者提供免費醫療服務。這些年來我們在中國遇到很多努力工作的政府官員和醫務工作人員，還有為傷殘人士服務的機構，他們給我們提供了很大的支持和幫助，他們的友誼和支持讓我們更加堅定了對光明之行的信心。我們知道，沒有社區和個人的慷慨捐款，我們是不可能完成上述工作的。在此請允許我代表光明之行感謝大家的一貫支持，我們也期望你們能繼續支持光明之行活動。"
+    },
+    "team": [
+        {
+            "title": {
+                "en": "Dr Peter Wong AM",
+                "cn": "黃肇強醫生, AM"
+            },
+            "summary": {
+                "en": "He was born in China, graduated as a Pharmacist at Sydney University in 1964 and Faculty of Medicine in 1971. He became a registered Family Physician in 1973. Dr Wong has been a Member of Medical Board of NSW and a Member of Parliament in NSW, State from 1998 to 2006.  Dr Wong is the Founder of China Vision Inc, Australian Chinese Charity Foundation and The Unity Party.  He is currently the Chairperson of the Unity Party. ",
+                "cn": "黃肇強醫生出生於中國﹐1964年在雪梨大學畢業成為藥劑師﹐1971年醫科畢業﹐1973年成為註冊家庭醫生。黃醫生是新州醫療局的成員﹐1998年至2006年還是新州國會上議院議員, 黃醫生是光明之行﹑澳洲華人公益金和團結黨的始創人"
+            },
+            "prof_img_src": ""
+        },
+        {
+            "title": {
+                "en": "Dr Alvin Goh",
+                "cn": "吳淑輝醫生 (醫學縂監)"
+            },
+            "summary": {
+                "en": "Medical Director of China Vision Inc. and Cataract Surgeon for China Vision since 2000. Born in Hong Kong but grew up in Sydney, Australia. Graduated in Medical Science and Medicine from The University of Sydney. Qualified as an ophthalmologist since 1997 and perform cataract operations at various private and public hospitals. Hi is appointed as a Visiting Medical Officer (VMO) in Ophthalmology at Liverpool Hospital from 2001. Involved with instructing and supervising trainees in microsurgery.  Married with 3 wonderful children. Member and a leader at The Central Baptist Church. ",
+                "cn": "光明之行醫學縂監,從2000年起任光明之行白內障手術醫生。香港出生在澳洲雪梨長大。畢業於雪梨大學，於1997年註冊眼科專科醫生並在多間公立及私家醫院主診。在2001年被利物浦政府醫院委任為VMO眼科專科醫生顧問及教授眼科學生。吳淑輝醫生育有三名子女，於中央浸信會當領導。"
+            },
+            "prof_img_src": ""
+        },
+        {
+            "title": {
+                "en": "Dr Michael Tjeuw",
+                "cn": "鄒崇文醫生"
+            },
+            "summary": {
+                "en": "Vice-chairperson of China Vision Inc. Born and grew up in Indonesia .Studied in Australian and graduated from Medicine at The University of New South Wales;  He worked 18 years at the Department of Anaesthesiology, New York Hospital – Cornell University Medical College in New York City as an Instructor in Anaesthesiology and rose to the rank of Associate Professor at Cornell University Medical College .  Extensive clinical experience in anaesthesia for cardiac surgery and Neuro-surgery. He was a visiting Professor to China in 1986 and was awarded Honorary Professor of Anaesthetic at The Third Medical College at Chongqing, Sichuan, China in 1988 and Honorary Consultant at South West Hospital in Chongqing.  At the moment, Dr Tjeuw is a Senior Consultant Anaesthetist of Westmead Hospital in Sydney.",
+                "cn": "光明之行副主席, 印尼出生及長大。畢業於紐省大學。於美國 Cornell University Medical College in New York City 從事麻醉科專科醫生18年，任麻醉科專科教授。1986年被中國重慶第三醫學院擔任名譽教授、1988年被中國重慶西南醫院委任為高級醫生顧問。任澳洲雪梨 Westmead Hospital醫院高級麻醉科醫生顧問多年。"
+            },
+            "prof_img_src": ""
+        },
+        {
+            "title": {
+                "en": "Pinkie Leung JP",
+                "cn": "梁錦霞, 光明之行 現任秘書"
+            },
+            "summary": {
+                "en": "Secretary of China Vision Inc since she joined China Vision in 2001.  Born in Hong Kong, Migrated to Sydney at 18 years old.  Have worked as a Community Worker for 18 years, now she is a Case Manager of Anglicare SW Community Services, specialised in providing service to the frail aged and people with disability from different ethnic backgrounds. She has done a lot of charity work which includes organising fundraising activities for the local chartable community organisations.   She is the founder of the Special Children Services Centre in Sydney. ",
+                "cn": "於2001年加入「光明之行」擔任秘書長一職。在香港出世的她,18歲移居澳洲。成為社區服務工作者已達18年,現時的她為澳洲雪梨康福社個案服務社工,專責為來自不同背景的年長者、殘障人士提供服務。除此之外,她也參與不少社區的義務工作,為當地的慈善機構籌款等。為了幫助更多有需要的人士, 她於2008在雪梨創立了「特殊兒童服務中心"
+            },
+            "prof_img_src": ""
+        },
+        {
+            "title": {
+                "en": "Yaoping Wang, Director of Nursing ",
+                "cn": "王瑤萍護士"
+            },
+            "summary": {
+                "en": "Born in Shanghai and came to Australia in 1988. She became a Registered Nurse in Australia since 1991, and joined China Vision in 2002. She has also travelled to Burma as a Cardiac Nurse doing Bypass Surgery and Cambodia as an Ophthalmology Nurse doing Cataract Surgery.",
+                "cn": "王瑤萍護士出生於上海﹐於1988年抵澳﹐1991年成為澳洲註冊護士﹐2002年加入中國光明之行﹐她曾遠赴緬甸作搭橋手術的心臟護士﹐去過柬埔寨做白內障手術的眼科護士"
+            },
+            "prof_img_src": ""
+        },
+        {
+            "title": {
+                "en": "Kek Tai JP",
+                "cn": "戴囯光太平紳士"
+            },
+            "summary": {
+                "en": "Treasurer for China Vision Inc. Born and grew up in Malaysia. Studied in Sydney, Australia and graduated from The University of Sydney in Arts and Social Work. Have worked as Social Worker since 1986 and currently working in Anglicare. Married with 6 wonderful children. Joined China Vision medical mission since it first started in 1997. Also Lay Reader and Synod Representative in the Anglican Church Diocese of Sydney.",
+                "cn": "在馬來西亞土生土長的戴國光, 畢業於澳洲雪梨大學社工學系。他於1986年成為社會工作者,現任澳洲雪梨卡市(Cabramatta)康福社(AngliCare)社工, 同時也身為6個孩子的父親。自「光明之行醫療隊」1997年成立以來,他便成為其中的一份子並擔任「光明之行」財政主管一職。作為虔誠的基督徒,戴國光也是雪梨聖公會教堂的會議代表"
+            },
+            "prof_img_src": ""
+        },
+        {
+            "title": {
+                "en": "Cherie Kam JP",
+                "cn": "金紫薇太平紳士"
+            },
+            "summary": {
+                "en": "She is the Executive Committee Member of China Vision. She was born in Hong Kong then studied in Australia and graduated from Public Health (Honours), Sydney Medical School at University of Sydney. Cherie has worked as Clinical Research Coordinator for more than 10 years. She joined China Vision Medical Mission since 2002. She has great commitment towards her motherland in China who earnestly hopes the eye vision of the Cataract patients to be restored leading a good life.",
+                "cn": "澳洲光明之行常務理事。香港出生，畢業於澳洲悉尼大學醫學院公共衛生系, 在不同醫院及大學作醫學臨床研究工作達十多年。她曾參與不少非牟利慈善機構的義務工作,亦希望盡一點力量與愛心去回饋社會,並于二零零二年加入澳洲光明之行醫療隊, 她對祖國有著濃厚的赤子情懷。她懇切盼望能夠幫助患白內障的同胞得以早日重見光明, 重過美好生活。"
+            },
+            "prof_img_src": ""
+        }
+    ],
+    "sponsors" : {
+        "en": [
+            "There are many ways in which you can make a difference through the gift of sight. Becoming a China Vision sponsor will ensure that your contribution goes towards a worthy cause. Monetary donations or a contribution towards us is most appreciated.",
+            "We would like to thank each of the organizations, hospitals, doctors and all very many generous, delicated individuals in both Australia and China, whose support has made this endeavour possible. Together, let’s give a little more love and compassion to bring light to the lives of the less fortunate.",
+            "You can directly donate towards supplies to be used on our Cataract Mission trips.",
+            "Click on the “DONATE” tab and help us make a difference through the gift of sight.",
+            "Your donation is a powerful way to help. Give generously through the options below to help people see life again.",
+            "Did you know $5 allows a person to see again with spectacles",
+            "Did you know $50 allows one person to have cataract surgery and medical tests done",
+            "Did you know $250 allows one person to see this beautiful world again"
+        ],
+        "cn": [
+            "與其它慈善機構一樣“光明之行”需要社區大力支持及各界人士的捐助。特別要感謝堅定地站在背後支持“光明之行”的朋友和贊助機構。同時也很感激各專業醫護人員在過去數次前往中國之使命中，貢獻了他們的時間和技術。",
+            "社會捐助：光明之行沒有政府的撥款，所以每次志願醫療隊前往中國服務的經費都是通過籌款活動，團體公司商號贊助，以及個人捐款募得。光明之行得到了來自澳洲，香港，中國等地捐贈者的慷慨幫助以達至預定的目標。",
+            "僑務部門：負責發動社會各界力量籌集包括流動醫療手術車運營費用，朮前檢查，藥品器械等費用",
+            "地方政府：配套負責組織人員，初選病人，朮前檢查，提供特困病人食宿，醫護人員食宿等費用。",
+            "我們衷心感謝社會各界人士，團體，政府機構的支持。感謝義務參加光明之行義診活動的醫生，護士和工作人員，感謝每一位熱心的贊助者和義工。讓我們一起用雙手扶助黑暗中前行的身影，用愛心點亮貧困患者的生命吧！",
+            "光明之行，與您同行。"
+        ]
+    },
+    "donate": {
+        "en": "Like other non-profit organisations, China Vision requires strong community support and generous individuals. We are indebted to our medical specialists and nurses for contributing their time and expertise in every mission. Donations to China Vision will be used to purchase surgical instruments and disposable items. The cost of intraocular lens and surgical disposable items for the treatment to a cataract is AUD 250 each. Your donation can offer the persons with eye disease in China to regain a new life. If you would like to know more about China Vision or help us to fund raise, please give us a call Kek Tai 0419 496 177 or Pinkie Leung on 0403 055 818. Alternatively, if you would like to make a donation, please make your cheque payable to “China Vision Inc” and send to 5 Thirroul Circuit, Prestons, NSW 2170",
+        "cn": "若有意捐助“光明之行”的人士，可捐贈眼外科手術工具，以及用於治療白内障手術的眼球晶體片和輔助物料費用。每位患者只需植入一片晶體（約需澳幣250元）就可以令視力大爲改善，開始新的生活。若你希望得知更多有關“光明之行”的資料，或想協助籌募經費，請致電0419 496 177或0403 055 818聯絡。若捐款支票，擡頭請寫“CHINA VISION INC”，寄往5 Thirroul Circuit, Prestons, NSW 2170"
+    }
+}

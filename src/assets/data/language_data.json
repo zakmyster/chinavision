@@ -36,6 +36,40 @@
                 "cn": "聯繫",
                 "route":"contact"
             }
-        ]
+        ],
+        "headings": {
+            "vision": {
+                "en": "Vision",
+                "cn": "願景"
+            },
+            "mission": {
+                "en": "Mission",
+                "cn": "目標"
+            },
+            "cataract_question": {
+                "en": "What is a cataract?",
+                "cn": "白内障是什麽？"
+            },
+            "cataract_china": {
+                "en": "Cataract in China",
+                "cn": "現狀"
+            },
+            "team": {
+                "en": "Team",
+                "cn": "醫療團隊"
+            },
+            "gallery": {
+                "en": "Gallery",
+                "cn": "過往活動"
+            }, 
+            "sponsorship": {
+                "en": "Sponsorship",
+                "cn": "贊助商"
+            },
+            "donate": {
+                "en": "Donation",
+                "cn": "捐贈"
+            }
+        }
     }
 }

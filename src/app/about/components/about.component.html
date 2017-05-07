@@ -1,5 +1,9 @@
-{{_language}}
-<hr>
-<p *ngFor="let cont of _contents">
-  {{cont.content}}
+<p>
+  {{ _aboutContent }}
 </p>
+<hr>
+
+<h1>{{_missionHeader}}</h1>
+<ul>
+  <li *ngFor="let point of _missionContent ">{{ point }}</li>
+</ul>
