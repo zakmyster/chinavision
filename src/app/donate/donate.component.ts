@@ -9,15 +9,14 @@ import { WebContentService } from '../shared/services/web-content.service';
   styleUrls: ['./donate.component.sass']
 })
 export class DonateComponent implements OnInit {
-  public _aboutContent;
-  public _language: string;
+  public _donateData;
+
   constructor(private _webContentService: WebContentService,
               private _languageService: LanguageService) { }
 
   ngOnInit() {
     this._languageService._currLang$.subscribe(lng => {
-      this._language = lng;
-      this._aboutContent = this._webContentService.getContentSingle('about_data', this._language);
+      this._donateData = this._webContentService.getContentSingle('donate', lng);
     });
   }
 }
