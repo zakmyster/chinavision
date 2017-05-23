@@ -22,8 +22,8 @@ export class CauseComponent implements OnInit {
   ngOnInit() {
     this._languageService._currLang$.subscribe(language => {
       // Retrieve displayed Component Content.
-      this._cataractInfoQues = this._webContentService.getContent('what_is_cataract', language);
-      this._cataractInfoChina = this._webContentService.getContent('cataract_in_china', language);
+      this._cataractInfoQues = this._webContentService.getContentSingle('what_is_cataract', language);
+      this._cataractInfoChina = this._webContentService.getContentSingle('cataract_in_china', language);
 
       // Retrieve Headings used by HTML, controlled by language.
       this._languageDataService.getLanguageData().subscribe((data) => {

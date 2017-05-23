@@ -1,3 +1,8 @@
-<p>
-  team works!
-</p>
+<div>
+  <div *ngFor="let member of _teamData">
+    <h1>{{ member['title'][_language] }}</h1>
+    <p>{{ member['summary'][_language] }}</p>
+    <p>IMG: {{ member['prof_img_src'] }}</p>
+    <br>
+  </div>
+</div>

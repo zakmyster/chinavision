@@ -17,7 +17,7 @@ export class DonateComponent implements OnInit {
   ngOnInit() {
     this._languageService._currLang$.subscribe(lng => {
       this._language = lng;
-      this._aboutContent = this._webContentService.getContent('about_data', this._language);
+      this._aboutContent = this._webContentService.getContentSingle('about_data', this._language);
     });
   }
 }

@@ -9,15 +9,17 @@ import { WebContentService } from '../shared/services/web-content.service';
   styleUrls: ['./team.component.sass']
 })
 export class TeamComponent implements OnInit {
-  public _aboutContent;
-  public _language: string;
+  public _teamData;
+  public _language;
+
   constructor(private _webContentService: WebContentService,
               private _languageService: LanguageService) { }
 
   ngOnInit() {
     this._languageService._currLang$.subscribe(lng => {
       this._language = lng;
-      this._aboutContent = this._webContentService.getContent('about_data', this._language);
+      this._teamData = this._webContentService.getContentMany('team');
+      console.log(this._teamData);
     });
   }
 }

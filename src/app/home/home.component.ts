@@ -22,7 +22,7 @@ export class HomeComponent implements OnInit {
     this._languageService._currLang$.subscribe(lng => {
       this._language = lng;
       console.log('Accessing founder message data.');
-      this._founderMessage = this._webContentService.getContent('founder_message', this._language);
+      this._founderMessage = this._webContentService.getContentSingle('founder_message', this._language);
 
       // Retrieve Headings used by HTML, controlled by language.
       this._languageDataService.getLanguageData().subscribe((data) => {

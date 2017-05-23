@@ -24,9 +24,9 @@ export class AboutComponent implements OnInit {
   ngOnInit() { // break this into new functions
     this._languageService._currLang$.subscribe(lng => {
       this._language = lng;
-      this._aboutContent = this._webContentService.getContent('about_data', this._language);
-      this._missionContent = this._webContentService.getContent('mission_data', this._language);
-      this._goalContent = this._webContentService.getContent('chinavision_goal', this._language);
+      this._aboutContent = this._webContentService.getContentSingle('about_data', this._language);
+      this._missionContent = this._webContentService.getContentSingle('mission_data', this._language);
+      this._goalContent = this._webContentService.getContentSingle('chinavision_goal', this._language);
       this._languageDataService.getLanguageData().subscribe((data) => {
         this._missionHeader = data['headings']['mission'][lng];
         this._goalHeading = data['headings']['goal'][lng];

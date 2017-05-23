@@ -13,11 +13,21 @@ export class WebContentService {
   constructor(private http: Http) {
   }
 
-  getContent(type: string, language: string) {
+  /*
+   * For objects single objects. Language is resolved here.
+   */
+  getContentSingle(type: string, language: string) {
     return this.websiteContent[type][language];
   }
 
-  loadWebsiteContent(): Observable<any>{
+  /*
+    * For objects many objects. Language will be resolved in the component
+    */
+  getContentMany(type: string) {
+    return this.websiteContent[type];
+  }
+
+  loadWebsiteContent(): Observable<any> {
     return this.http.get(this.aboutUrl)
       .map(res => {
         this.websiteContent = res.json();

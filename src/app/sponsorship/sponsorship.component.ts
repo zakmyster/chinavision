@@ -9,15 +9,14 @@ import { WebContentService } from '../shared/services/web-content.service';
   styleUrls: ['./sponsorship.component.sass']
 })
 export class SponsorshipComponent implements OnInit {
-  public _aboutContent;
-  public _language: string;
+  public _sponsorshipData;
+
   constructor(private _webContentService: WebContentService,
               private _languageService: LanguageService) { }
 
   ngOnInit() {
     this._languageService._currLang$.subscribe(lng => {
-      this._language = lng;
-      this._aboutContent = this._webContentService.getContent('about_data', this._language);
+      this._sponsorshipData = this._webContentService.getContentSingle('sponsors', lng);
     });
   }
 }
