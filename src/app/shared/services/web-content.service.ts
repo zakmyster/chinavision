@@ -17,11 +17,12 @@ export class WebContentService {
     return this.websiteContent[type][language];
   }
 
-  loadWebsiteContent() {
+  loadWebsiteContent(): Observable<any>{
     return this.http.get(this.aboutUrl)
       .map(res => {
         this.websiteContent = res.json();
-        console.log(this.websiteContent);
-      });
+      })
+      // catch any errors ...
+      .catch((err: any) => Observable.throw(err.json().error || 'Server Error'));
   }
 }

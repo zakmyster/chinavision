@@ -12,9 +12,5 @@ export class WorkspaceComponent implements OnInit {
   constructor(private websiteService: WebContentService) { }
 
   ngOnInit() {
-    this.websiteService.loadWebsiteContent().subscribe(() => {
-      console.log('Loading website content.');
-    });
   }
-
 }

@@ -13,19 +13,23 @@ export class AboutComponent implements OnInit {
   public _aboutContent;
   public _missionContent: Array<string>;
   public _missionHeader;
-
+  public _goalContent;
+  public _goalHeading;
   public _language: string;
+
   constructor(private _webContentService: WebContentService,
               private _languageService: LanguageService,
               private _languageDataService: LanguageDataService ) { }
 
-  ngOnInit() {
+  ngOnInit() { // break this into new functions
     this._languageService._currLang$.subscribe(lng => {
       this._language = lng;
       this._aboutContent = this._webContentService.getContent('about_data', this._language);
       this._missionContent = this._webContentService.getContent('mission_data', this._language);
+      this._goalContent = this._webContentService.getContent('chinavision_goal', this._language);
       this._languageDataService.getLanguageData().subscribe((data) => {
         this._missionHeader = data['headings']['mission'][lng];
+        this._goalHeading = data['headings']['goal'][lng];
       });
     });
   }

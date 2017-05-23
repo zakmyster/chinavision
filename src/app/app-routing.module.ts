@@ -7,14 +7,20 @@ import { TeamComponent } from './team/team.component';
 import { SponsorshipComponent } from './sponsorship/sponsorship.component';
 import { DonateComponent } from './donate/donate.component';
 import { HomeComponent } from './home/home.component';
+import { WebContentResolver } from './shared/services/web-content-resolver.service';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent },
-  { path: 'about', component: AboutComponent },
-  { path: 'cause', component: CauseComponent },
-  { path: 'team', component: TeamComponent },
-  { path: 'sponsorship', component: SponsorshipComponent },
-  { path: 'donate', component: DonateComponent }
+  { path: 'home', component: HomeComponent, resolve: [WebContentResolver] },
+  { path: 'about', component: AboutComponent, resolve: [WebContentResolver] },
+  { path: 'cause', component: CauseComponent, resolve: [WebContentResolver] },
+  { path: 'team', component: TeamComponent, resolve: [WebContentResolver] },
+  { path: 'sponsorship', component: SponsorshipComponent, resolve: [WebContentResolver] },
+  { path: 'donate', component: DonateComponent, resolve: [WebContentResolver] },
+  {
+    path: '',
+    redirectTo: '/home',
+    pathMatch: 'full'
+  }
 ];
 
 @NgModule({
