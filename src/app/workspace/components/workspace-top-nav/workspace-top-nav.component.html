@@ -1,11 +1,12 @@
 <header>
-  <div class="logo">CHINAVISION</div>
+  <a id="logo">CHINAVISION</a>
+  <button (click)="changeLanguage()">{{ _newLanguageLabel }}</button>
   <nav>
-    <ul>
+    <a (click)="_showSideBar = !_showSideBar" id="menu-icon" ></a>
+    <ul [class.show-sidebar]="!_showSideBar">
       <li *ngFor="let nav of _navBarLngLabels">        
         <a routerLink="/{{nav.route}}">{{nav[_currLanguageLabel]}}</a>
       </li>
-      <li><button (click)="changeLanguage()">{{ _newLanguageLabel }} </button></li>
     </ul>
   </nav>
 </header>

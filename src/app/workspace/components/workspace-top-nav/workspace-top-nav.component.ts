@@ -9,6 +9,10 @@ import { LanguageDataService } from '../../../shared/services/language-data.serv
   styleUrls: ['./workspace-top-nav.component.sass']
 })
 export class WorkspaceTopNavComponent implements OnInit {
+  /* Display Variables */
+  public _showSideBar: boolean;
+
+  /* Content Variables */
   public _newLanguageLabel: string;
   public _currLanguageLabel: string;
   public _navBarLngLabels: Array<any>;
@@ -17,6 +21,8 @@ export class WorkspaceTopNavComponent implements OnInit {
               private _languageDataService: LanguageDataService) { }
 
   ngOnInit() {
+    this._showSideBar = false;
+
     this._languageService._currLang$.subscribe(lng => {
       this._currLanguageLabel = lng;
       if (lng === 'cn') {

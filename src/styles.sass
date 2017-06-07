@@ -1,6 +1,6 @@
 /* You can add global styles to this file, and also import other style files */
 /* Global Defaults
-
+/* RESET */
 html
   margin: 0px
   padding: 0px
@@ -47,9 +47,9 @@ big
 /* Links and Images
 
 a
-  text-decoration: underline
+  text-decoration: none
   &:link, &:visited, &:active, &:hover
-    text-decoration: underline
+    text-decoration: none
 
 img
   border: none
@@ -61,65 +61,31 @@ table
   padding: 0
   border: none
 
-/* Forms
+/* END RESET */
 
-form
-  margin: 0
-  padding: 0
-  display: inline
+/* MAIN */
 
-label
+body
+  font-size: 1.05em
+  line-height: 1.25em
+  font-family: Helvetica Neue, Helvetica, Arial
+  background: #f9f9f9
+  color: #555;
+
+a
+  color: #4C9CF1
+  text-decoration: none
+  font-weight: bold
   cursor: pointer
 
-/* Common Classes
+a:hover
+  color: #444
 
-.clear
-  clear: both
+img 
+  width: 100%
 
-.floatLeft
-  float: left
-
-.floatRight
-  float: right
-
-.textLeft
-  text-align: left
-
-.textRight
-  text-align: right
-
-.textCenter
-  text-align: center
-
-.textJustify
-  text-align: justify
-
-.blockCenter
-  display: block
-  margin-left: auto
-  margin-right: auto
-
-/* remember to set width
-
-.bold
-  font-weight: bold
-
-.italic
-  font-style: italic
-
-.underline
-  text-decoration: underline
-
-.noindent
-  margin-left: 0
-  padding-left: 0
-
-.nomargin
-  margin: 0
-
-.nopadding
-  padding: 0
-
-.nobullet
-  list-style: none
-  list-style-image: none
+/* Apply Boxsizing to all elements */
+*
+  -webkit-box-sizing: border-box
+     -moz-box-sizing: border-box
+          box-sizing: border-box

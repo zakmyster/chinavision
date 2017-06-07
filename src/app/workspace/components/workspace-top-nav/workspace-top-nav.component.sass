@@ -1,28 +1,71 @@
 header
-    position: relative;
-    height: 50px;
-    border-bottom: 1px solid gray;
-    nav
-        position: absolute;
-        top: 10%;
-        left: 30%;
-        ul
-            display: inline-block;
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            li 
-                display: inline-block;
+    background: #fff
+    width: 100%
+    height: 76px
+    top: 0
+    left: 0
+    border-bottom: 4px solid #4C9CF1
+    z-index: 1000
 
-                a 
-                    text-decoration: none;
-                    padding: 10px 10px;
-                    display: block;
-                    cursor: pointer;
-    .logo
-        position: absolute;
-        top: 10%;
-        color: blue;
-        font-size: 2em;
-        vertical-align: middle;
-        
+#logo
+    float: left
+    display: block
+    padding: 28px
+
+nav
+    float: right
+    padding: 20px
+    height: 100%
+
+    ul
+        list-style: none
+        position: absolute
+        right: 20px
+        top: 80px
+        width: 20%
+
+        &.show-sidebar
+            display: none
+
+    li
+        padding: 10px
+        width: 100%;
+        padding: 10px 0
+        margin: 0
+
+#menu-icon
+    display: inline-block
+    width: 40px
+    height: 40px
+    background: #4C8FEC
+
+a:hover#menu-icon
+    background-color: #444
+    border-radius: 4px 4px 0 0
+
+.active
+    color: #2262AD
+
+@media only screen and (min-width : 730px)
+    nav
+        width: 550px
+        padding: 28px
+        float: none
+        display: inline-block
+        position: absolute
+        right: 10px
+
+        ul
+            width: auto
+            right: auto
+            top: auto
+
+            &.show-sidebar 
+                display: inline-block
+
+        #menu-icon
+            display: none
+
+        li
+            display: inline
+            padding-right: 5px
