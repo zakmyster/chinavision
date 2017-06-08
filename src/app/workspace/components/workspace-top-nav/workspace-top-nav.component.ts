@@ -35,8 +35,19 @@ export class WorkspaceTopNavComponent implements OnInit {
       });
     });
   }
-
-  changeLanguage() {
+  /*
+   * Function to change the page language when the Language button
+   * is clicked. Takes no parameters.
+   */
+  public changeLanguage() {
     this._languageService.setLanguage(this._newLanguageLabel);
+  }
+
+  /*
+   * Function to close the mobile version of the navigation menu,
+   * when a nav item is clicked. Takes no parameters.
+   */
+  public closeNavMenu() {
+    this._showSideBar = false; // hides mobile sideBar
   }
 }

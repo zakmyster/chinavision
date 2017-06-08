@@ -5,7 +5,7 @@
     <a (click)="_showSideBar = !_showSideBar" id="menu-icon" ></a>
     <ul [class.show-sidebar]="!_showSideBar">
       <li *ngFor="let nav of _navBarLngLabels">        
-        <a routerLink="/{{nav.route}}">{{nav[_currLanguageLabel]}}</a>
+        <a routerLink="/{{nav.route}}" (click)="closeNavMenu()" >{{nav[_currLanguageLabel]}}</a>
       </li>
     </ul>
   </nav>
