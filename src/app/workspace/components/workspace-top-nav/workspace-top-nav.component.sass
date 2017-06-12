@@ -1,11 +1,9 @@
 header
     background: #fff
     width: 100%
-    height: 76px
-    top: 0
-    left: 0
+    min-height: 76px
     border-bottom: 4px solid #4C9CF1
-    z-index: 1000
+    //z-index: 1000 - remove until everything else is working
 
 #logo
     float: left
@@ -13,42 +11,36 @@ header
     padding: 28px
 
 nav
-    float: right
-    padding: 20px
-    height: 100%
+    position: absolute
+    width: 80%
+    max-width: 260px
+    right: 0px
+    margin-top: 25px
+
+    &.show-sidebar
+        display: none
 
     ul
         list-style: none
-        position: absolute
-        right: 20px
-        top: 80px
-        width: 160px
-        background-color: lightblue
-
-        &.show-sidebar
-            display: none
+        background-color: grey
 
     li
         padding: 10px
         width: 100%
-        padding: 10px 0 0 17px
+        padding: 10px 0
         margin: 0
-        text-align: right
+        text-align: left
 
         a
-            color: green
-            background-color: blue
-            width: 135px
-            height: 30px
-            display: inline-block
-            line-height: 30px
-            padding-right: 10px
+            padding: 0 12px
 
 #menu-icon
     display: inline-block
     width: 40px
     height: 40px
     background: #4C8FEC
+    float: right
+    margin-top: 15px
 
 a:hover#menu-icon
     background-color: #444
@@ -57,29 +49,8 @@ a:hover#menu-icon
 .active
     color: #2262AD
 
-@media only screen and (min-width : 730px)
-    nav
-        width: 550px
-        height: 57px
-        padding: 28px
-        float: none
-        display: inline-block
-        position: absolute
-        right: 10px
-
-        ul
-            width: auto
-            right: auto
-            top: auto
-            background-color: white;
-
-            &.show-sidebar 
-                display: inline-block
-
-        #menu-icon
-            display: none
-
-        li
-            display: inline
-            padding-right: 5px
-            padding-left: 0px
+.country-toggle
+    display: inline-block
+    background-color: black
+    width: 50px
+    height: 50px

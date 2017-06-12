@@ -4,6 +4,7 @@ import { LanguageService } from './services/language.service';
 import { LanguageDataService } from './services/language-data.service';
 import { WebContentResolver } from './services/web-content-resolver.service';
 import { WebContentService } from './services/web-content.service';
+import { WindowServiceService } from './services/window-service.service';
 
 @NgModule({
   imports: [
@@ -14,7 +15,8 @@ import { WebContentService } from './services/web-content.service';
     LanguageService,
     LanguageDataService,
     WebContentService,
-    WebContentResolver
+    WebContentResolver,
+    WindowServiceService
   ]
 })
 export class SharedModule { }

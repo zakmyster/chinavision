@@ -14,6 +14,8 @@ import { SponsorshipComponent } from './sponsorship/sponsorship.component';
 import { DonateComponent } from './donate/donate.component';
 import { HomeComponent } from './home/home.component';
 import { ContactComponent } from './contact/contact.component';
+import { FounderMessageComponent } from './home/founder-message/founder-message.component';
+import { WidgetHomeComponent } from './home/widget-home/widget-home.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { ContactComponent } from './contact/contact.component';
     SponsorshipComponent,
     DonateComponent,
     HomeComponent,
-    ContactComponent
+    ContactComponent,
+    FounderMessageComponent,
+    WidgetHomeComponent
   ],
   imports: [
     BrowserModule,
