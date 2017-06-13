@@ -1,16 +1,27 @@
-<div class="widget-img-container">
-  <div class="widget-img">
-    <ul>
-      <li>IMAGE 1;</li>
-      <li>IMAGE 2;</li>
-      <li>VIDEO 1;</li>
-    </ul>
+<div class="widget-img-container" [style.height]="sliderHeight">
+  <div class="widget-images">
+    <div class="widget-img" 
+         style="background-image: url('http://www.guoguiyan.com/data/out/113/69175307-large-wallpapers.jpeg');" 
+         [class.active]="0 == activeImageIndex"></div>
+    <div class="widget-img" 
+         style="background-image: url('http://mustseeplaces.eu/wp-content/uploads/2016/08/Great-Wall-of-China.jpg');" 
+         [class.active]="1 == activeImageIndex"></div>
+    <div class="widget-img" 
+         style="background-image: url('http://www.zastavki.com/pictures/originals/2015/Cities_Yacht_in_the_port_of_a_large_city_at_night_100028_.jpg');" 
+         [class.active]="2 == activeImageIndex"></div>
   </div>
   <div class="widget-thumbnails">
-    <ul>
-      <li>Thumbnail IMAGE 1;</li>
-      <li>Thumbnail IMAGE 2;</li>
-      <li>Thumbnail VIDEO 1;</li>
-    </ul>
+    <a class="widget-img-thumb" 
+         style="background-image: url('http://www.guoguiyan.com/data/out/113/69175307-large-wallpapers.jpeg');" 
+         [class.active]="0 == activeImageIndex"
+         (click)="activateImage(0)"></a>
+    <a class="widget-img-thumb" 
+         style="background-image: url('http://mustseeplaces.eu/wp-content/uploads/2016/08/Great-Wall-of-China.jpg');" 
+         [class.active]="1 == activeImageIndex"
+         (click)="activateImage(1)"></a>
+    <a class="widget-img-thumb" 
+         style="background-image: url('http://www.zastavki.com/pictures/originals/2015/Cities_Yacht_in_the_port_of_a_large_city_at_night_100028_.jpg');" 
+         [class.active]="2 == activeImageIndex"
+         (click)="activateImage(2)"></a>
   </div>
 </div>
