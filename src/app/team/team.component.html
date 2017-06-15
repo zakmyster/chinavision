@@ -1,8 +1,15 @@
-<div>
-  <div *ngFor="let member of _teamData">
-    <h1>{{ member['title'][_language] }}</h1>
-    <p>{{ member['summary'][_language] }}</p>
-    <p>IMG: {{ member['prof_img_src'] }}</p>
+<div class="team-container">
+  <div class="team-header"> 
+    <h1>OUR TEAM</h1>
+  </div>
+  <div class="team-item-block cf" *ngFor="let member of _teamData">
+    <div class="team-pic cf">
+      <img src="{{ member['prof_img_src'] }}" alt="Image of {{ member['title'][_language] }}">
+    </div>
+    <div class="team-blurb cf">
+      <h1>{{ member['title'][_language] }}</h1>
+      <p>{{ member['summary'][_language] }}</p>
+    </div>
     <br>
   </div>
 </div>

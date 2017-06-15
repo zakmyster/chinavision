@@ -33,40 +33,44 @@
             }
         ],
         "headings": {
+            "about_us": {
+                "en": "ABOUT US",
+                "cn": "關於我們"
+            },
             "vision": {
-                "en": "Vision",
+                "en": "VISION",
                 "cn": "願景"
             },
             "mission": {
-                "en": "Mission",
+                "en": "MISSION",
                 "cn": "目標"
             },
             "cataract_question": {
-                "en": "What is a cataract?",
+                "en": "WHAT IS CATARACT?",
                 "cn": "白内障是什麽？"
             },
             "cataract_china": {
-                "en": "Cataract in China",
+                "en": "CATARACT IN CHINA",
                 "cn": "現狀"
             },
             "team": {
-                "en": "Team",
+                "en": "TEAM",
                 "cn": "醫療團隊"
             },
             "gallery": {
-                "en": "Gallery",
+                "en": "GALLERY",
                 "cn": "過往活動"
             }, 
             "sponsorship": {
-                "en": "Sponsorship",
+                "en": "SPONSORSHIP",
                 "cn": "贊助商"
             },
             "donate": {
-                "en": "Donation",
+                "en": "DONATION",
                 "cn": "捐贈"
             },
             "goal": {
-                "en": "ChinaVision Goal",
+                "en": "CHINAVISION GOAL",
                 "cn": "運作模式"
             },
             "founder_message": {

@@ -1,12 +1,27 @@
-<p>
-  {{ _aboutContent }}
-</p>
-<hr>
-
-<h1>{{ _missionHeader }}</h1>
-<ul>
-  <li *ngFor="let point of _missionContent ">{{ point }}</li>
-</ul>
-
-<h1>{{ _goalHeading }}</h1>
-<p>{{ _goalContent }}</p>
+<div class="content-container">
+  <div class="about-block">
+    <div class="about-header"><h1> {{ _aboutHeader | uppercase}}</h1></div>
+    <hr> 
+    <div class="about-content">
+      <p>
+        {{ _aboutContent }}
+      </p>
+    </div>
+  </div> 
+  <div class="mission-container">
+    <div class="mission-header"><h1>{{ _missionHeader | uppercase }}</h1></div>
+    <hr>
+    <div class="mission-content">
+      <ul>
+        <li *ngFor="let point of _missionContent ">{{ point }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="goal-container">
+    <div class="goal-heading"><h1>{{ _goalHeading }}</h1></div>
+    <hr>
+    <div class="goal-content">
+      <p>{{ _goalContent }}</p>
+    </div>
+  </div>
+</div>

@@ -11,6 +11,7 @@ import { LanguageDataService } from '../../shared/services/language-data.service
 })
 export class AboutComponent implements OnInit {
   public _aboutContent;
+  public _aboutHeader;
   public _missionContent: Array<string>;
   public _missionHeader;
   public _goalContent;
@@ -30,6 +31,7 @@ export class AboutComponent implements OnInit {
       this._languageDataService.getLanguageData().subscribe((data) => {
         this._missionHeader = data['headings']['mission'][lng];
         this._goalHeading = data['headings']['goal'][lng];
+        this._aboutHeader = data['headings']['about_us'][lng];
       });
     });
   }
