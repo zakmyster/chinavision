@@ -1,26 +1,29 @@
 header
     background: #fff
     width: 100%
-    min-height: 76px
-    border-bottom: 4px solid #4C9CF1
-    //z-index: 1000 - remove until everything else is working
+    min-height: 4em
+    border-bottom: 2px solid #e0e0e0
+    padding: 0 7px
 
 #logo
-    font-family: Helvetica, Arial, sans-serif
+    display: inline-block
+    max-width: 12em
+    margin-top: 1em
 
 nav
     position: absolute
     width: 80%
     max-width: 260px
     right: 0px
-    margin-top: 25px
+    margin-top: 10px
 
     &.show-sidebar
         display: none
 
     ul
         list-style: none
-        background-color: grey
+        background-color: #d0d0d0
+        border-radius: 7px
 
     li
         padding: 10px
@@ -31,24 +34,41 @@ nav
 
         a
             padding: 0 12px
+            color: #585656
 
 #menu-icon
     display: inline-block
-    width: 40px
-    height: 40px
-    background: #4C8FEC
+    font-size: 1.2em
     float: right
-    margin-top: 15px
-
-a:hover#menu-icon
-    background-color: #444
-    border-radius: 4px 4px 0 0
+    margin-top: 0.7em
+    cursor: pointer
 
 .active
     color: #2262AD
 
 .country-toggle
     display: inline-block
-    background-color: black
-    width: 50px
-    height: 50px
+    background-color: red
+    text-align: center
+    border-radius: 8px
+    color: #fff
+    cursor: pointer
+    padding: 0 5px
+    position: relative
+    top: -8px
+    //right: -815px
+    border: 2px solid #ffb301
+
+$break-small: 700px;
+@media screen and (min-width: $break-small)
+    header
+        background: #fff
+        width: 100%
+        min-height: 4em
+        border-bottom: 2px solid #e0e0e0
+        padding: 0 40px
+
+        .header-container
+            max-width: 1200px
+            margin: 0 auto
+            padding: 0 40px

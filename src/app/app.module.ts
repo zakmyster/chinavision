@@ -17,6 +17,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FounderMessageComponent } from './home/founder-message/founder-message.component';
 import { WidgetHomeComponent } from './home/widget-home/widget-home.component';
 import { SocialLinksComponent } from './home/social-links/social-links.component';
+import { AboutHomeComponent } from './home/about/about-home.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { SocialLinksComponent } from './home/social-links/social-links.component
     ContactComponent,
     FounderMessageComponent,
     WidgetHomeComponent,
-    SocialLinksComponent
+    SocialLinksComponent,
+    AboutHomeComponent
   ],
   imports: [
     BrowserModule,

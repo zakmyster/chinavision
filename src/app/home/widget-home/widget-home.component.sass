@@ -1,11 +1,9 @@
 .widget-img-container
-    max-height: 480px
-    min-height: 304px
-    background-color: grey
+    width: 100%
 
     .widget-images
         height: 100%
-        
+
         .widget-img
             display: none
             width: 100%
@@ -18,3 +16,9 @@
 
             &.active
                 display: block
+
+$break-small: 700px;
+@media screen and (min-width: $break-small)
+    .widget-img-container
+        max-height: 480px
+        min-height: 304px

@@ -1,3 +1,13 @@
 .footer-container
     background-color: #f3f1ed
-    padding: 3em 0 3em 16em
+    padding: 3em 0 3em 1em
+
+    .footer-logo
+        outline-style: none
+        cursor: pointer
+        width: 10em
+
+$break-small: 700px;
+@media screen and (min-width: $break-small)
+    .footer-container
+        padding: 3em 0 3em 11em

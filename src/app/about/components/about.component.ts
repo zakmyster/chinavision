@@ -10,8 +10,6 @@ import { LanguageDataService } from '../../shared/services/language-data.service
   styleUrls: ['./about.component.sass']
 })
 export class AboutComponent implements OnInit {
-  public _aboutContent;
-  public _aboutHeader;
   public _missionContent: Array<string>;
   public _missionHeader;
   public _goalContent;
@@ -25,13 +23,11 @@ export class AboutComponent implements OnInit {
   ngOnInit() { // break this into new functions
     this._languageService._currLang$.subscribe(lng => {
       this._language = lng;
-      this._aboutContent = this._webContentService.getContentSingle('about_data', this._language);
       this._missionContent = this._webContentService.getContentSingle('mission_data', this._language);
       this._goalContent = this._webContentService.getContentSingle('chinavision_goal', this._language);
       this._languageDataService.getLanguageData().subscribe((data) => {
         this._missionHeader = data['headings']['mission'][lng];
         this._goalHeading = data['headings']['goal'][lng];
-        this._aboutHeader = data['headings']['about_us'][lng];
       });
     });
   }

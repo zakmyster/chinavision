@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 import { LanguageService } from '../../../shared/services/language.service';
 import { LanguageDataService } from '../../../shared/services/language-data.service';
@@ -9,6 +9,9 @@ import { LanguageDataService } from '../../../shared/services/language-data.serv
   styleUrls: ['./workspace-top-nav.component.sass']
 })
 export class WorkspaceTopNavComponent implements OnInit {
+  /* Component Elements */
+  @ViewChild('menuIcon') menuIconElement: ElementRef;
+
   /* Display Variables */
   public _showSideBar: boolean;
 
@@ -49,5 +52,14 @@ export class WorkspaceTopNavComponent implements OnInit {
    */
   public closeNavMenu() {
     this._showSideBar = false; // hides mobile sideBar
+  }
+
+  /**
+   * setNavXCoord - Find x coordinate of menu-icon then set it for the
+   * nav position.
+   */
+  public setNavXCoord() {
+    const menuIconElementRect = this.menuIconElement.nativeElement.getBoundingClientRect();
+    return (menuIconElementRect.left - 225) + 'px';
   }
 }
