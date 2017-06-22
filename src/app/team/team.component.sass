@@ -1,11 +1,36 @@
 .team-container
-    .team-item-block
-        border: 1px solid blue
-        width: 80%
-        padding: 2em
-        margin: 2em auto
+    .team-header
+        font-family: Raleway, Helvetica Nue, sans-serif
+        font-size: 25px
+        color: #4990E2
+        letter-spacing: 15.7px
+        font-weight: bolder
+        padding-top: 10px
+        padding-bottom: 10px
 
-        .team-pic
-            float: left
-            border: 1px solid black
+    .team-item-block
+        padding: 2em
+        margin-bottom: 2em
+        background-color: #ebfbee
+        border-radius: 15px
+
+        .team_rw1
+            display: inline-block
             padding: 0.3em
+            img
+                border-radius: 10px
+
+        .team_rw2
+            display: inline-block
+            h1
+                color: #49e2ba
+
+
+$break-small: 700px;
+@media screen and (min-width: $break-small)
+    .team-container
+        .team-item-block
+            .team_rw2
+                width: 78%
+                padding-left: 10px
+                vertical-align: top
