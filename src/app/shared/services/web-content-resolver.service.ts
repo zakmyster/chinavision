@@ -16,7 +16,6 @@ export class WebContentResolver implements Resolve<any> {
      * nagivating to routes.
      */
     resolve(route: ActivatedRouteSnapshot, state: RouterStateSnapshot): Observable<any> {
-        console.log('Resolver');
         return this.wc.loadWebsiteContent();
     }
 }
