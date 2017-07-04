@@ -25,6 +25,11 @@
                 "en": "Sponsorship",
                 "cn": "贊助",
                 "route":"sponsorship"
+            },
+            {
+                "en": "Contact",
+                "cn": "聯繫",
+                "route":"contact"
             }
         ],
         "headings": {
