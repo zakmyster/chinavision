@@ -25,11 +25,6 @@
                 "en": "Sponsorship",
                 "cn": "贊助",
                 "route":"sponsorship"
-            },
-            {
-                "en": "Contact",
-                "cn": "聯繫",
-                "route":"contact"
             }
         ],
         "headings": {
@@ -76,6 +71,14 @@
             "founder_message": {
                 "en": "Founder - Dr Peter Wong",
                 "cn": "光明之行創會會長黃肇強醫生獻詞"
+            },
+            "cause": {
+                "en": "Cause",
+                "cn": "原因"
+            },
+            "contact": {
+                "en": "Contact",
+                "cn": "聯繫"
             }
         }
     }

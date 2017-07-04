@@ -14,6 +14,7 @@ export class CauseComponent implements OnInit {
   public _cataractInfoChina;
   public _cataractQHeading;
   public _cataractCHeading;
+  public _causeHeading;
 
   constructor(private _webContentService: WebContentService,
               private _languageService: LanguageService,
@@ -29,6 +30,7 @@ export class CauseComponent implements OnInit {
       this._languageDataService.getLanguageData().subscribe((data) => {
         this._cataractQHeading = data['headings']['cataract_question'][language];
         this._cataractCHeading = data['headings']['cataract_china'][language];
+        this._causeHeading = data['headings']['cause'][language];
       });
     });
   }
