@@ -1,0 +1,90 @@
+{
+    "language_data": {
+        "nav_bar": [
+            {
+                "en": "Donate",
+                "cn": "捐",
+                "route":"donate"
+            },
+            {
+                "en": "About Us",
+                "cn": "關於我們",
+                "route":"about"
+            },
+            {
+                "en": "Cause",
+                "cn": "原因",
+                "route":"cause"
+            },
+            {
+                "en": "Team",
+                "cn": "球隊",
+                "route":"team"
+            },
+            {
+                "en": "Sponsorship",
+                "cn": "贊助",
+                "route":"sponsorship"
+            },
+            {
+                "en": "Contact",
+                "cn": "聯繫",
+                "route":"contact"
+            }
+        ],
+        "headings": {
+            "about_us": {
+                "en": "ABOUT US",
+                "cn": "關於我們"
+            },
+            "vision": {
+                "en": "VISION",
+                "cn": "願景"
+            },
+            "mission": {
+                "en": "MISSION",
+                "cn": "目標"
+            },
+            "cataract_question": {
+                "en": "WHAT IS CATARACT?",
+                "cn": "白内障是什麽？"
+            },
+            "cataract_china": {
+                "en": "CATARACT IN CHINA",
+                "cn": "現狀"
+            },
+            "team": {
+                "en": "TEAM",
+                "cn": "醫療團隊"
+            },
+            "gallery": {
+                "en": "GALLERY",
+                "cn": "過往活動"
+            }, 
+            "sponsorship": {
+                "en": "SPONSORSHIP",
+                "cn": "贊助商"
+            },
+            "donate": {
+                "en": "DONATION",
+                "cn": "捐贈"
+            },
+            "goal": {
+                "en": "CHINAVISION GOAL",
+                "cn": "運作模式"
+            },
+            "founder_message": {
+                "en": "Founder - Dr Peter Wong",
+                "cn": "光明之行創會會長黃肇強醫生獻詞"
+            },
+            "cause": {
+                "en": "Cause",
+                "cn": "原因"
+            },
+            "contact": {
+                "en": "Contact",
+                "cn": "聯繫"
+            }
+        }
+    }
+}
